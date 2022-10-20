@@ -106,7 +106,7 @@ def main():
     for i in range(5):
         for j in range(5):
             total1 += matrix[i][j]
-    average1 = round((total1/25),4)
+    average1 = round(total1/25,4)
     print("\naverage rating of neighborhood: " + str(average1))
             
     #print final path
